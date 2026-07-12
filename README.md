@@ -54,10 +54,10 @@ In Claude Code:
 
 ```
 /plugin marketplace add chitranshjoshi99/kimchi
-/plugin install kimchi@kimchi
+/plugin install kimchi@ceejay
 ```
 
-Update later with `/plugin marketplace update kimchi`. Plugin skills are namespaced, so
+Update later with `/plugin marketplace update ceejay`. Plugin skills are namespaced, so
 you invoke it as **`/kimchi:kimchi`** (e.g. `/kimchi:kimchi PH`).
 
 ### Option B — as a standalone skill (clean `/kimchi` name)
