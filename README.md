@@ -53,10 +53,10 @@ Works in **[Claude Code](https://claude.com/claude-code)** and **[Codex CLI](htt
 
 ```
 /plugin marketplace add chitransh-cj/kimchi
-/plugin install kimchi@ceejay
+/plugin install kimchi@chitransh-cj
 ```
 
-Update later with `/plugin marketplace update ceejay`. kimchi ships as a single skill, so
+Update later with `/plugin marketplace update chitransh-cj`. kimchi ships as a single skill, so
 it invokes with the clean name **`/kimchi`** (e.g. `/kimchi PH`) — no namespace prefix.
 
 ### Claude Code / Codex — clone + install script

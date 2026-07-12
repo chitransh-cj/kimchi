@@ -1,10 +1,10 @@
 {
-  "name": "ceejay",
+  "name": "chitransh-cj",
   "owner": {
-    "name": "ceejay"
+    "name": "chitransh-cj"
   },
   "metadata": {
-    "description": "ceejay's plugins. kimchi — a product-thinking layer for vibe coders that grills a raw idea into build-ready docs."
+    "description": "chitransh-cj's plugins. kimchi — a product-thinking layer for vibe coders that grills a raw idea into build-ready docs."
   },
   "plugins": [
     {
