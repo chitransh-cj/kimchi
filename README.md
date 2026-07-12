@@ -52,7 +52,7 @@ Works in **[Claude Code](https://claude.com/claude-code)** and **[Codex CLI](htt
 ### Claude Code — plugin (recommended: auto-updates)
 
 ```
-/plugin marketplace add chitranshjoshi99/kimchi
+/plugin marketplace add chitransh-cj/kimchi
 /plugin install kimchi@ceejay
 ```
 
@@ -62,7 +62,7 @@ it invokes with the clean name **`/kimchi`** (e.g. `/kimchi PH`) — no namespac
 ### Claude Code / Codex — clone + install script
 
 ```bash
-git clone https://github.com/chitranshjoshi99/kimchi.git
+git clone https://github.com/chitransh-cj/kimchi.git
 cd kimchi
 ./install.sh          # auto-detects installed agents
 # or force one:  ./install.sh claude | codex | all
@@ -78,7 +78,7 @@ cd kimchi
 Copy the skill into your Codex skills directory (personal or project-local):
 
 ```bash
-git clone https://github.com/chitranshjoshi99/kimchi.git
+git clone https://github.com/chitransh-cj/kimchi.git
 mkdir -p ~/.codex/skills/kimchi
 cp -R kimchi/plugin/SKILL.md kimchi/plugin/references ~/.codex/skills/kimchi/
 ```
