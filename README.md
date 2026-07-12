@@ -1,28 +1,33 @@
 # 🌶️ kimchi
 
-**A product-thinking layer for people who vibe code.**
+**Turn a raw idea into build-ready docs your AI can just execute.**
 
-![kimchi grilling an idea into build-ready docs](assets/demo.gif)
+![kimchi turning an idea into build-ready docs](assets/demo.gif)
 
-You get ideas constantly. The problem was never the idea — it's everything between the
-idea and a working app. You open your AI tool, type a vague prompt, and jump straight to
-execution... only to discover vibe coding isn't as straightforward as it looked. The AI
-fills gaps you never specified, builds the wrong thing, and 90% of the time direct
-prompting just produces **slop**. A few frustrating hours later, motivation is gone and
-the idea joins the graveyard of things you never built.
+Having ideas was never the problem. Getting your AI to *build* one correctly is. You open
+Claude or Codex, type a vague prompt, and burn hours re-explaining yourself while it fills
+gaps you never specified and builds the wrong thing — because the real spec only ever lived
+in your head. A few frustrating hours later the idea joins the graveyard.
 
-kimchi fixes the part before the code. It takes your raw idea and **ferments it** — drops
-it into a room of thirteen world-class expert personas (a product head, an architect, a
-designer, a security expert, a lazy staff engineer, a finance head, and more) who
-**grill you, counter you, and refuse to flatter you** until the idea is airtight. Then it
-compiles everything into concise, build-ready docs — locked decisions, API contracts, tech
-stack, and a story-by-story plan — plus an `execute.md` that lets Claude Code **build the
-whole thing autonomously across multiple sessions**, no hand-holding.
+**kimchi gives you the spec.** You hand it a raw idea; it hands back a clean, easy-to-read
+set of **build-ready docs**:
 
-Raw ingredients in. Pressure and time. Something structured and sharp comes out. That's the
-name.
+- **One doc per EPIC** — user stories with business severity/complexity and a strict priority order.
+- **Locked decisions** — tech stack, architecture, exact API contracts, security and deployment calls, all fixed so a build session never re-litigates them.
+- **`execute.md`** — a self-driving handoff that lets Claude Code or Codex build the whole thing **story-by-story, autonomously, across multiple sessions**, resuming from trackers.
+- **A net tracker + pre-build audit** — whole-product status at a glance, and a gate that catches flawed decisions while they're still a doc edit, not a rewrite.
 
-> Direct prompting creates AI slop. kimchi creates a plan the AI can actually follow.
+No more prompt-wrestling. You give the docs to your AI and it executes.
+
+How it gets there: instead of one agreeable assistant, kimchi puts your idea through 13
+world-class expert personas (product, architecture, design, security, finance, a
+deliberately lazy staff engineer, and more) that **grill you, counter you, and refuse to
+flatter you** until every decision is nailed down. The grilling is the engine — the docs
+are the gold.
+
+Raw ingredients in. Pressure and time. A sharp, buildable spec comes out. That's the name.
+
+> Direct prompting creates AI slop. kimchi hands your AI a spec it can actually build.
 
 ---
 

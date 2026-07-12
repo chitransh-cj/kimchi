@@ -1,16 +1,19 @@
 ---
 name: kimchi
 description: >-
-  Plan and pressure-test a product from raw idea to build-ready EPIC docs by
-  interrogating the user through a roster of world-class expert personas that
-  grill, counter, and refuse to flatter. Use this whenever the user wants to
-  ideate, validate, scope, architect, or plan a product, feature, startup, or
-  app — phrasings like "I have an idea for", "help me build a product", "plan
-  this app", "pressure-test my startup", "is this idea any good", "turn this
-  into build docs", "spawn the product head / architect / finance bro", or any
-  request to think through a product before writing code. Invoke by persona name
-  (or acronym) to summon a specific expert, or with no argument to run the full
-  product-development lifecycle end to end.
+  Turn a raw product idea into a clean, build-ready doc set your AI can execute
+  autonomously — one doc per EPIC with locked decisions, exact API contracts, a
+  story-by-story priority plan, and an execute.md handoff that ends the friction
+  of prompting Claude to build. Gets the clarity by interrogating the user
+  through a roster of world-class expert personas that grill, counter, and
+  refuse to flatter. Use this whenever the user wants to ideate, validate, scope,
+  architect, or plan a product, feature, startup, or app, or turn an idea into
+  build/execution docs — phrasings like "I have an idea for", "help me build a
+  product", "plan this app", "pressure-test my startup", "is this idea any good",
+  "turn this into build docs", "spawn the product head / architect / finance
+  bro", or any request to think through a product before writing code. Invoke by
+  persona name (or acronym) to summon a specific expert, or with no argument to
+  run the full product-development lifecycle end to end.
 ---
 
 # kimchi

@@ -10,7 +10,7 @@
     {
       "name": "kimchi",
       "source": "./plugin",
-      "description": "Pressure-tests a raw product idea into build-ready EPIC docs by grilling you through 13 world-class expert personas. For vibe coders who get ideas but hit AI slop when prompting directly."
+      "description": "Turns a raw idea into build-ready docs your AI can just execute — locked decisions, API contracts, a story-by-story plan, and an autonomous execute.md handoff. Gets there by grilling you through 13 world-class expert personas."
     }
   ]
 }

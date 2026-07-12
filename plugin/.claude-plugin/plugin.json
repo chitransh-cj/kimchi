@@ -1,6 +1,6 @@
 {
   "name": "kimchi",
-  "description": "Pressure-tests a raw product idea into build-ready EPIC docs by grilling you through 13 world-class expert personas that counter and refuse to flatter. For vibe coders who get ideas but jump to prompting and hit AI slop.",
+  "description": "Turns a raw product idea into a clean, build-ready doc set — locked decisions, API contracts, a story-by-story plan, and an execute.md your AI builds autonomously. Gets the clarity by grilling you through 13 world-class expert personas that counter and refuse to flatter. Ends the friction of prompting Claude to execute.",
   "version": "0.1.0",
   "author": {
     "name": "Chitransh Joshi"
