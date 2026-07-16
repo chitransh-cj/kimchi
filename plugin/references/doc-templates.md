@@ -71,6 +71,8 @@ sessions. Structure is fixed: **table → instructions → tracker.**
 Non-negotiable choices a future build session must not re-litigate:
 
 - **Tech stack:** <languages, frameworks, DB, key libs>
+- **Project structure:** <TB's locked folder tree + naming conventions + placement rule —
+  where every kind of file lives; new files follow this, never dumped into src/>
 - **Architecture:** <the shape decided by ARCH — services, data flow, boundaries>
 - **Deployment:** <the target from DO, right-sized for current scope>
 - **Security:** <the must-haves from SM — authn/z, data handling, threat mitigations>
@@ -133,6 +135,8 @@ a single master tracker that compiles every EPIC's tracker rows into one table.
 ## Key locked decisions (product-wide)
 
 - **Tech stack:** … · **Architecture:** … · **Deployment:** … · **Security:** …
+- **Project structure:** the locked folder tree, naming conventions, and placement rule
+  (from TB) — reproduce the tree here; every session puts files where it says.
 - (the cross-cutting choices every session must honor — pull from the EPIC docs)
 
 ## Net tracker
@@ -190,6 +194,10 @@ rewrite.
 
 ## Rules
 - **Build order = priority order** across the net tracker. Don't cherry-pick.
+- **Follow the locked project structure.** Every new file goes where the folder tree and
+  placement rule in `README.md` say — matching the naming conventions. Never dump files
+  into `src/` or invent a new directory; if a file has no obvious home, mark the story
+  Blocked and note the structure gap instead of improvising.
 - **Locked decisions are locked.** If a doc says Postgres + REST, you use Postgres + REST.
   If reality makes a locked decision impossible, mark the story **Blocked**, write why, and
   move on — don't silently swap a load-bearing decision.
