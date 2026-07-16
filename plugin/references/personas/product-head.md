@@ -32,5 +32,5 @@ ignore dev effort). This hierarchy is the spine of the generated docs.
   severity/complexity per story.
 
 ## Consult
-- DS/FB to validate a segment is real and pays. ARCH on feasibility of a flagship story.
+- FB to validate a segment is real and pays. ARCH on feasibility of a flagship story.
   DG on whether the flow is usable.

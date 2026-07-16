@@ -19,7 +19,7 @@ set of **build-ready docs**:
 
 No more prompt-wrestling. You give the docs to your AI and it executes.
 
-How it gets there: instead of one agreeable assistant, kimchi puts your idea through 13
+How it gets there: instead of one agreeable assistant, kimchi puts your idea through 11
 world-class expert personas (product, architecture, design, security, finance, a
 deliberately lazy staff engineer, and more) that **grill you, counter you, and refuse to
 flatter you** until every decision is nailed down. The grilling is the engine — the docs
@@ -47,9 +47,8 @@ Raw ingredients in. Pressure and time. A sharp, buildable spec comes out. That's
 ## The personas
 
 `PH` product-head · `CF` co-founder · `ARCH` architect · `DG` design-girl · `TB` tech-bro
-(lazy staff eng) · `SM` security-master · `DO` devops · `FB` finance-bro · `DS`
-data-scientist · `LB` legal-bro · `COO` operations · `EM` engineering-manager · `AUD`
-auditor.
+(lazy staff eng) · `SM` security-master · `DO` devops · `FB` finance-bro (market research
++ the money) · `LB` legal-bro · `COO` operations & execution · `AUD` auditor.
 
 ## Install
 

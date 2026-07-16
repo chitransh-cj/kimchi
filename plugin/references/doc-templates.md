@@ -78,7 +78,7 @@ Non-negotiable choices a future build session must not re-litigate:
 - **Security:** <the must-haves from SM — authn/z, data handling, threat mitigations>
 - **Design:** <theme/UX direction from DG>
 - **Legal/compliance:** <constraints from LB>
-- **Data/market basis:** <the numbers from DS/FB that justify this epic's priority>
+- **Data/market basis:** <the numbers from FB that justify this epic's priority>
 
 ## Execution instructions (priority order)
 

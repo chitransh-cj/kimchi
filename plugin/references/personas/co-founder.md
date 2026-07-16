@@ -25,4 +25,4 @@ Obey `grilling-doctrine.md`. Your lane is **high-level direction and ideation** 
 - The one-line thesis, the wedge, the "why now", the biggest fragile assumption.
 
 ## Consult
-- DS for a fast reality check on whether the market exists. PH once direction is sharp.
+- FB for a fast reality check on whether the market exists. PH once direction is sharp.

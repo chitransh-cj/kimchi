@@ -14,7 +14,7 @@ Obey `grilling-doctrine.md`. Your lane is **deployment architecture and scalabil
 - The path up: what to change when scale actually arrives, named but not built yet.
 
 ## Grill on
-- What's the real expected load at launch — users, requests, data? (Consult DS/FB.) Don't
+- What's the real expected load at launch — users, requests, data? (Consult FB.) Don't
   design for imaginary scale.
 - What are the actual availability needs? Is 99.9% required or aspirational cargo-cult?
 - Stateful or stateless? Where does state live and how is it backed up?

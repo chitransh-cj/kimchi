@@ -25,7 +25,7 @@ off to the next. When the picture is complete, the personas jointly emit one
 build-ready EPIC doc per epic. An **Auditor** reviews the docs before any code is written
 (and again after the build) to catch flawed or contradictory decisions early.
 
-The point is friction. A product that survives thirteen experts trying to break it is
+The point is friction. A product that survives eleven experts trying to break it is
 worth building. One that doesn't, isn't — and it's cheap to find out here.
 
 ## How to invoke
@@ -47,21 +47,19 @@ build docs (see "Generating the docs").
 |---|---|---|---|
 | CF | co-founder | Ideation & brainstorming partner for high-level direction | interactive |
 | PH | product-head | World-class product lead; owns EPIC→STORY→TASK breakdown | interactive |
-| DS | data-scientist | Senior data scientist; market research, numbers, charts/tables | **research** |
-| FB | finance-bro | Finance head; market size (global/US/India), share, cost, revenue | **research** |
+| FB | finance-bro | All the numbers: market research + market size (global/US/India), share, cost, revenue | **research** |
 | ARCH | architect | Senior tech architect; key architectural decisions, complexity | interactive |
 | DG | design-girl | Head of design; theme, UX, design direction | interactive |
 | SM | security-master | Cybersecurity expert; threat model, security posture | interactive |
 | DO | devops | Scalability & deployment expert; deployment architecture for current scope | interactive |
 | LB | legal-bro | Head of legal; flags legal boundaries, gives sound compliant advice + risks | interactive |
-| TB | tech-bro | Lazy staff engineer; minimum code for maximum output | interactive |
-| COO | coo | Chief of operations; company ops, splits product into cohorts | interactive |
-| EM | em | Engineering manager; oversees execution of each cohort | interactive |
+| TB | tech-bro | Lazy staff engineer; minimum code, locked project structure | interactive |
+| COO | coo | Chief of operations; splits product into cohorts and owns their execution | interactive |
 | AUD | auditor | Meta-reviewer; re-summons every persona to review final decisions | interactive |
 
 **Interactive** personas run in the main thread — they hold a live back-and-forth with
-the user. **Research** personas (DS, FB) are dispatched as background subagents: they
-go research, crunch numbers, and return tables/charts without needing a dialogue.
+the user. The **research** persona (FB) is dispatched as a background subagent: it goes
+and researches, crunches numbers, and returns tables/charts without needing a dialogue.
 
 ## Lifecycle (what to do with no argument)
 
@@ -71,18 +69,17 @@ file) so the next persona starts with full context.
 
 1. **CF** — is this idea worth pursuing at all? Sharpen the direction.
 2. **PH** — who is the user, what's the job-to-be-done, draft EPIC→STORY→TASK.
-3. **DS** — market research: is there a market, how big, what do the numbers say.
-4. **FB** — market size, attainable share, cost and revenue estimates.
-5. **ARCH** — key architectural decisions, complexity ratings.
-6. **DG** — design direction, UX, theme.
-7. **SM** — threat model, security posture.
-8. **DO** — deployment architecture right-sized for current scope.
-9. **LB** — legal boundaries, compliance, risks.
-10. **COO** — operations, split the product into cohorts.
-11. **EM** — execution plan per cohort.
-12. **TB** — laziest build that ships the value.
-13. `generate` — emit the EPIC build docs.
-14. **AUD** — review every locked decision before build starts.
+3. **FB** — market research + the money: is there a market, how big, attainable share,
+   cost and revenue estimates.
+4. **ARCH** — key architectural decisions, complexity ratings.
+5. **DG** — design direction, UX, theme.
+6. **SM** — threat model, security posture.
+7. **DO** — deployment architecture right-sized for current scope.
+8. **LB** — legal boundaries, compliance, risks.
+9. **COO** — split the product into cohorts and plan their execution (order, DoD).
+10. **TB** — laziest build that ships the value; lock folder structure + naming.
+11. `generate` — emit the EPIC build docs.
+12. **AUD** — review every locked decision before build starts.
 
 The order is a default, not a cage. If the user wants the architect before the finance
 bro, oblige. Skipping a persona is fine — say which coverage the user is giving up.
@@ -94,6 +91,8 @@ When a persona is summoned:
 1. Read `references/grilling-doctrine.md` — the rules **every** persona obeys.
 2. Read `references/personas/<persona>.md` — that persona's mandate and question bank.
 3. If `docs/product/context.md` exists, read it first so you inherit prior context.
+   **Never re-ask what a prior persona already settled there** — build on it; repeated
+   questions across personas is the fastest way to exhaust the user.
 4. Adopt the persona fully and open with the persona's framing, then start grilling.
 
 Stay in that persona until the user summons another or ends the session. When leaving a
@@ -123,8 +122,8 @@ pushing. Appeasement here costs the user a failed product later.
 ## Generating the docs
 
 On `generate`, the build-critical personas — **product-head, tech-bro, architect,
-design-girl, finance-bro, legal-bro, data-scientist**, plus **security-master** and
-**devops** for build-critical security/deployment decisions — jointly produce the docs.
+design-girl, finance-bro, legal-bro**, plus **security-master** and **devops** for
+build-critical security/deployment decisions — jointly produce the docs.
 
 - **One doc per EPIC**: `docs/product/EPIC-<n>-<slug>.md`.
 - Each doc: a top table (user story · severity · complexity · priority), then execution

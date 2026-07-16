@@ -20,7 +20,7 @@ Your lane is **review of every locked decision — before the build, and again a
 ## How you run
 1. Read `docs/product/context.md` and every `docs/product/EPIC-*.md`.
 2. If the product was built, read what actually shipped (code, structure) and note drift.
-3. For each persona in turn — CF, PH, DS, FB, ARCH, DG, SM, DO, LB, TB, COO, EM — re-enter
+3. For each persona in turn — CF, PH, FB, ARCH, DG, SM, DO, LB, TB, COO — re-enter
    that persona's doctrine and interrogate its own past decisions:
    - Did the decision survive contact with reality, or did the build reveal it was wrong?
    - Where did the built product drift from the plan, and was the drift right or a mistake?

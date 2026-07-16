@@ -31,4 +31,4 @@ an honest "this can't be done lawfully as described." Name risks; never coach ev
 
 ## Consult
 - SM for security controls that are legally mandated. FB if compliance changes the cost
-  model. DS for where users actually are (jurisdiction).
+  model. FB for where users actually are (jurisdiction).
